@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> 
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+			$('.price-item__more-button').click(function() {
+		        $('.price-item__hidden-more').fadeIn(1000);
+    		});
+		     $('.close').click(function() {
+		        $('.price-item__hidden-more').fadeOut(1000);
+    		});
+});
+	</script>
+</head>
+<body>
+
+	<div class="top-line container-full-width">
+		<div class="container">
+			<ul class="nav-list container-row container-around container-vcenter">
+				<li class="nav-list__item"><a class="nav-list__link" href="#">Наши цены</a></li>
+				<li class="nav-list__item"><a class="nav-list__link" href="#">Наши Работы</a></li>
+				<li class="nav-list__item"><a class="nav-list__link" href="#">Гарантии</a></li>
+				<li class="nav-list__item"><a class="nav-list__link" href="#">Наши работы</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<div class="header container-full-width container-column container-hcenter">
+		<div class="container container-row container-between container-vcenter ">
+			<div class="b-logo">
+				<div class="b-logo__img">
+					<img src="img/logo.png" alt="">
+					<p class="b-logo__text">Подбор Автомобилей в Новосибирске</p>
+				</div>
+			</div>
+			<div class="b-head-center">
+				<span>Работаем 10 лет<br>Гарантия 100 лет<br>фотоотчет всего процесса</span>
+				
+			</div>
+			<div class="b-contact">
+				<a class="b-contact__phone" href="tel:+7 (983) 306-50-05"> +7 (983) 306-50-05 </a>
+				<p>Часы работы: ПН-ВС 9:00 - 21:00</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<section class="main container-full-width">
+		<div class="container container-column container-hcenter">
+			<h1 class="main__caption">Профессиональный подбор автомобилей </h1>
+			<p class="main__description">от 1500 руб. для Новосибирска и НСО</p>	
+			<div class="main-content container-row container-vcenter">
+				<div class="main-content-img">
+					<img src="img/main.jpg" alt="">
+					<p class="abstract-text"> "Я доволен" - <span>Антон 32 года</span></p>
+				</div>
+				<div class="main-content-form">
+					<form class="call-back-form container-column container-hcenter container-vcenter" action="">
+						<p class="call-back-form__title">Закажите бесплатную проверку объявления</p>
+						<span class="call-back-form__description"></span>
+						<input class="call-back-form__phone" type="text" placeholder="Введите телефон"/>
+						<input class="call-back-form__link" type="text" placeholder="Вставьте ссылку на объявление"/>
+						<input class="call-back-form__button" type="submit" value="Заказать проверку"/>
+					</form>
+				</div>
+			</div>			
+		</div>
+	</section>
+
+	<section class="advantages container-full-width">
+		<div class="container container-column">
+			<div class="container-row container-hcenter container-vcenter">
+				<span class="advantages__caption">Поможем избежать рисков</span>
+			</div>
+			<div class="container-row container-around">
+				<div class="advantages-item container-column container-vcenter">
+					<div class="advantages-item__img">
+						80%
+					</div>
+					<div class="advantages-item__description">
+						<span>Автомобилей</span> <br> старше 3х лет учавствовали в ДТП
+					</div>
+				</div>
+				<div class="advantages-item container-column container-vcenter"">
+					<div class="advantages-item__img">
+						90%
+					</div>
+					<div class="advantages-item__description">
+						<span>Продавцов</span> <br> стараются скрыть дефекты при покупке 
+					</div>
+				</div>
+				<div class="advantages-item container-column container-vcenter"">
+					<div class="advantages-item__img">
+						20%
+					</div>
+					<div class="advantages-item__description">
+						<span>Сделок</span> <br> оформляются с нарушением закона
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="what-we-do container-full-width">
+		<div class=" container container-column container-vcenter">
+			<p class="what-we-do__caption">
+				Зачем мы нужны, что мы делаем
+			</p>
+			<div class="what-we-do__description">
+				Наши специалисты выполнят частичную или полную шумоизоляцию для Вашего авто:
+			</div>
+			<div class="container-row  container-wrap">
+				<div class="what-we-do-item container-column container-vcenter">
+					<div class="what-we-do-item__img">
+						<img src="img/icon/i1.png" alt="">
+					</div>
+					<div class="what-we-do-item__title">Знакомство с вами и вашими пожеланиями
+					</div>
+					<div class="what-we-do-item__description">Консультация о том, какой автомобиль подходит вам лучше всего, определение круга интересующих моделей. Заключение договора.</div>
+				</div>
+				<div class="what-we-do-item container-column container-vcenter container-hcenter">
+					<div class="what-we-do-item__img">
+						<img src="img/icon/i2.png" alt="">
+					</div>
+					<div class="what-we-do-item__title">Поиск автомобилей без следов ДТП
+					</div>
+					<div class="what-we-do-item__description">Первичный осмотр автомобилей. Отбор нескольких экземпляров с хорошим состоянием кузова. В первую очередь ищем автомобиль, который на 100% не участвовал в авариях.</div>
+				</div>
+				<div class="what-we-do-item container-column container-vcenter container-hcenter">
+					<div class="what-we-do-item__img">
+						<img src="img/icon/i3.png" alt="">
+					</div>
+					<div class="what-we-do-item__title">
+Диагностика технической и юридической истории</div>
+					<div class="what-we-do-item__description">
+"Второй тур" для тех автомобилей, которые заслуживают внимания. Диагностика технической части автомобиля. Аргументированный торг. Проверка автомобиля на юридическую чистоту.</div>
+				</div>
+				<div class="what-we-do-item container-column container-vcenter container-hcenter">
+					<div class="what-we-do-item__img">
+						<img src="img/icon/i4.png" alt="">
+					</div>
+					<div class="what-we-do-item__title">Оформление сделки
+					</div>
+					<div class="what-we-do-item__description">
+Подготовка всех документов для переоформления автомобиля и сопровождение в ГИБДД при постановке на учет, консультация и сопровождение.</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="price container container-column container-vcenter">
+			<p class="price__caption">
+				Пакеты услуг
+			</p>
+			<div class="price__description">
+				На полную шумоизоляцию авто с понижением шума до 50%
+			</div>
+			<div class="container container-row container-around ">
+				<div class="price-item container-column container-vcenter">
+					<div class="price-item__title">Осмотр одного авто.</div>
+					<div class="price-item__cost">от 1500 ₽</div>
+					<div class="price-item__description">
+						Осмотр одного автомобиля<br>
+					    Оценка стоимости автомобиля<br>
+					    Проверка кузовных дефектов<br>
+					    Проверка технической части<br>
+					    Проверка достоверности пробега
+					</div>
+					<button class="price-item__button">заказать</button>
+				</div>
+				<div class="price-item container-column container-vcenter">
+					<div class="price-item__title">Комплексный Подбор.</div>
+					<div class="price-item__cost">от 9900 ₽</div>
+					<div class="price-item__description">
+						    Консультация<br>
+						    Неограниченное количество осмотров<br>
+						    Проверка кузовных дефектов<br>
+						    Проверка технической части<br>
+						    Проверка достоверности пробега<br>
+						    Проверка чистоты сделки<br>
+						    Сопровождение В ГИБДД <br>						   
+					</div>
+					<div class="price-item__more-button">Узнать подробнее</div>
+					<div class="price-item__hidden-more">	
+					<div class="close"></div>					   		
+						В каких случаях подходит услуга "Комплексный Подбор"<br>
+						Вы уже посмотрели несколько вариантов и поняли, что хороший авто найти непросто
+						Не имеете достаточно знаний в области автомобилей для самостоятельной проверки
+						У Вас нет времени на долгие и изнурительные поиски
+						Не знаете какой автомобиль Вам подходит и как его выбрать
+						Планируете сэкономить на покупке автомобиля
+						Хотите быть уверенным в покупке
+						Не умеете, стесняетесь или не хотите торговаться
+						Вы желаете получить лучший автомобиль за свои деньги
+					</div>
+					<button class="price-item__button">заказать</button>
+				</div>
+				<div class="price-item container-column container-vcenter">
+					<div class="price-item__title">Автоэксперт на день.</div>
+					<div class="price-item__cost">от 8000 ₽</div>
+					<div class="price-item__description">
+						    Советы по выбору объявлений<br>
+						    Осмотр нескольких автомобилей<br>
+						    Проверка кузовных дефектов<br>
+						    Проверка технической части<br>
+						    Проверка достоверности пробега
+					</div>
+					<button class="price-item__button">заказать</button>
+				</div>			
+			</div>
+		</div>
+
+		<div class="in-addition container container-column container-vcenter">
+			<p class="in-addition__caption">
+				Бонусы при работе с нами:
+			</p>
+			<div class="container-row">
+				<div class="in-addition__item container-column container-vcenter">
+					<p class="in-addition__title">Чашка горячего ароматного кофе</p>
+					<!-- <span class="in-addition__description">Бесплатно</span> -->
+				</div>
+				<div class="in-addition__item container-column container-vcenter">
+					<p class="in-addition__title">Нежное дуновение морского бриза, в лучах утреннего рассветного солнца</p>
+					<span class="in-addition__description">Бесплатно</span>
+				</div>
+				<div class="in-addition__item container-column container-vcenter">
+					<p class="in-addition__title">Эскорт умопомрачительных красавиц на протяжении всей сделки</p>
+					<span class="in-addition__description">Бесплатно</span>
+				</div>
+				<div class="in-addition__item container-column container-vcenter">
+					<p class="in-addition__title">Полный фотоотчет
+					о проделанной работе</p>
+					<span class="in-addition__description">Бесплатно</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="how-we-work container-full-width">
+		<div class="container container-column">
+			<div class="how-we-work__caption">
+				Исходя из Ваших пожеланий мы можем понизить шум в авто до 75%!
+			</div>
+			<div class="how-we-work__table">
+				<table>
+					<tr>
+					<th>Тип</th>
+					<th>БАЗОВАЯ</th>
+					<th>ПРЕМИУМ*</th>
+					<th>ЭКСКЛЮЗИВ</th>
+					</tr>
+					<tr>
+						<td>Уход шумов</td>
+						<td>30-35%</td>
+						<td>35-50%</td>
+						<td>50-75%</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Уход шумов</td>
+						<td>30-35%</td>
+						<td>35-50%</td>
+						<td>50-75%</td>
+					</tr>
+					<tr>
+						<td>Уход шумов</td>
+						<td>30-35%</td>
+						<td>35-50%</td>
+						<td>50-75%</td>
+					</tr>
+					<tr>
+						<td>Уход шумов</td>
+						<td>30-35%</td>
+						<td>35-50%</td>
+						<td>50-75%</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><button>Заказать расчет</button></td>
+						<td><button>Заказать расчет</button></td>
+						<td><button>Заказать расчет</button></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+	<section class="material container-full-width">
+		<div class="container container-column container-vcenter">
+			<div class="material__main-caption">
+				Что мы используем в работе	
+			</div>
+			<div class="material__description">
+				оборудование, сто и.т.д и хз
+			</div>
+			<div class="material-item-wrapper container-row container-wrap container-hcenter">
+				<div class="material-item container-column container-vcenter">
+					<div class="material-item__img"></div>
+					<div class="material-item__title">потолок</div>
+					<div class="what-we-do-item__description">Потолок делается <br> материалом 3 мм</div>
+				</div>
+				<div class="material-item container-column container-vcenter">
+					<div class="material-item__img"></div>
+					<div class="material-item__title">потолок</div>
+					<div class="what-we-do-item__description">Потолок делается <br> материалом 3 мм</div>
+				</div>
+				<div class="material-item container-column container-vcenter">
+					<div class="material-item__img"></div>
+					<div class="material-item__title">потолок</div>
+					<div class="what-we-do-item__description">Потолок делается <br> материалом 3 мм</div>
+				</div>
+				<div class="material-item container-column container-vcenter">
+					<div class="material-item__img"></div>
+					<div class="material-item__title">потолок</div>
+					<div class="what-we-do-item__description">Потолок делается <br> материалом 3 мм</div>
+				</div>
+				<div class="material-item container-column container-vcenter">
+					<div class="material-item__img"></div>
+					<div class="material-item__title">потолок</div>
+					<div class="what-we-do-item__description">Потолок делается <br> материалом 3 мм</div>
+				</div>
+				<div class="material-item container-column container-vcenter">
+					<div class="material-item__img"></div>
+					<div class="material-item__title">потолок</div>
+					<div class="what-we-do-item__description">Потолок делается <br> материалом 3 мм</div>
+				</div>
+			</div>
+			<div class="material__sub-caption">
+				Почему нужно делать шумоизоляцию этими материалами?
+			</div>
+			<div class=" container container-row container-wrap ">
+				<div class="material-why-item container-column">
+					<div class="material-why-item__title">Снижение уровня шума на 50% </div>
+					<div class="material-why-item__description">Это очень сильный эффект <br>
+					</div>
+				</div><!-- 
+				 --><div class="material-why-item container-column">
+					<div class="material-why-item__title">Снижение уровня шума на 50% </div>
+					<div class="material-why-item__description">Это очень сильный эффект <br>
+					</div>
+				</div><!-- 
+				 --><div class="material-why-item container-column">
+					<div class="material-why-item__title">Снижение уровня шума на 50% </div>
+					<div class="material-why-item__description">Это очень сильный эффект <br>
+					</div>
+				</div><!-- 
+				 --><div class="material-why-item container-column">
+					<div class="material-why-item__title">Снижение уровня шума на 50% </div>
+					<div class="material-why-item__description">Это очень сильный эффект <br>
+					</div>
+				</div>
+			</div>
+			<div class="container container-row container-hcenter">
+				<button>Закажи звонок</button>
+			</div>
+		</div>
+	</section>
+	<section class="garant container-full-width">
+		<div class="container container-column container-vcenter">
+			<div class="garant__caption">Подбирая для Вас автомобиль <span>мы гарантируем</span></div>
+			<div class="material-item-wrapper container-row container-wrap container-hcenter">
+				<div class="garant-item container-column container-vcenter">
+					<div class="garant-item__img"></div>
+					<div class="garant-item__description">вот это</div>
+				</div>
+				<div class="garant-item container-column container-vcenter">
+					<div class="garant-item__img"></div>
+					<div class="garant-item__description">вот это тоже</div>
+				</div>
+				<div class="garant-item container-column container-vcenter">
+					<div class="garant-item__img"></div>
+					<div class="garant-item__description">и вот это</div>
+				</div>
+				<div class="garant-item container-column container-vcenter">
+					<div class="garant-item__img"></div>
+					<div class="garant-item__description">еще вот это</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="us-work container-full-width">
+		<div class="container container-column">
+			<div class="us-work__caption">
+				наши работы
+			</div>
+			<div class="us-work-item container-row">
+				<div class="left-cell container-column">
+					<div class="us-work-item__title">toyta camry</div>
+					<div class="us-work-item__cost">cost: <br> <span>18 000 rub</span> </div>
+					<div class="us-work-item__time">time: <br><span>7 hour 30 mitute</span></div>
+					<button class="us-work-item__button">i want it too</button>
+				</div>
+				<div class="center-cell container-column">
+					<div class="us-work-item__subtitle">asdasdasd</div>
+					<div class="us-work-item__description">
+						<p>asdasdasdsd <br> asdasdasd <br> <span>sdfsfsdfsdf</span></b></p>
+					</div>
+					<div class="us-work-item__result">result - уменьшение звука </div>
+
+				</div>
+				<div class="right-cell container-column">
+					<p>photo</p>
+					<div class="us-work-item__photo container-row container-wrap">
+						<img src="img/cm1.jpg" alt="">
+						<img src="img/cm1.jpg" alt="">
+						<img src="img/cm1.jpg" alt="">
+						<img src="img/cm1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sertification container-full-width">
+		<div class="container container-column container-vcenter">
+			<div class="sertification__caption">Делая шумоизоляцию мы гарантируем</div>
+			<div class="material-item-wrapper container-row container-wrap container-hcenter">
+
+						<img class="sertification__item" src="img/sf3.jpg" alt="">
+						<img class="sertification__item" src="img/sf3.jpg" alt="">
+						<img class="sertification__item" src="img/sf3.jpg" alt="">
+				
+							
+			</div>
+			
+		</div>
+	</section>
+	<section class="map container-full-width">
+		<div class="map__caption">
+			Где мы находимся
+		</div>
+		<div class="map__container">
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa8109abd1892b24b6685c9e20ca8b7e1a3f5f963fe3675805236d8a5cafd074f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+		</div>
+	</section>
+	<section class="any-qestion container-full-width container-column container-hcenter container-vcenter">
+		<div class="any-qestion__caption">
+			Остались вопросы?
+		</div>
+		<form class="any-qestion-form container-column container-hcenter container-vcenter" action="">
+			<label for="question"> Введите свой вопрос и через 15 минут <br>вам ответит наш менеджер:</label>
+			<textarea id="question" class="any-qestion-form__quest" rows="3"></textarea>
+			<label for="phone"> Ваш номер телефона: </label>
+			<input id="phone" class="any-qestion-form__phone" type="text" placeholder="Номер телефона"/>
+			<input class="any-qestion-form__button" type="submit" value="Отправить вопрос!"/>
+		</form>
+	</section>
+
+	<div class="header container-full-width container-column container-hcenter">
+		<div class="container container-row container-between container-vcenter ">
+			<div class="b-logo">
+				<div class="b-logo__img">
+					<img src="img/logo.png" alt="">
+					<p class="b-logo__text">Подбор Автомобилей в Новосибирске</p>
+				</div>
+			</div>
+			<div class="b-head-center">
+				<span>Работаем 10 лет<br>Гарантия 100 лет<br>фотоотчет всего процесса</span>
+				
+			</div>
+			<div class="b-contact">
+				<a class="b-contact__phone" href="tel:+7 (983) 306-50-05"> +7 (983) 306-50-05 </a>
+				<p>Часы работы: ПН-ВС 9:00 - 21:00</p>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
