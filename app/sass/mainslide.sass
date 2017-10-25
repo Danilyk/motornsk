@@ -1,36 +1,40 @@
+
 .call-back-form
 	height: 100%
-	padding: 40px 20px
-	text-align: center
+	padding: 20px 20px
+	text-align: left
 	border: 2px solid #32b090
 	box-shadow: 5px 5px 0 0 #32b090
+	ol
+		margin-left: 10px
+		li
+			margin-bottom: 10px
 	&__title
-		line-height: 1.5em
-		margin-bottom: 20px
-		font-size: 20px
-		color: #596063		
-	&__description
-		font-size: 1.5em
-		color: #32b090
-		line-height: 17px
+		text-align: center
+		margin-bottom: 10px
+		font-size: 1.2em
+		color: #596063
 	&__phone, &__link
 		width: 100%
 		line-height: 3em
-		// border-radius: 3px
 		border: 1px solid #32b090
 		text-align: center
 		margin: 5px 0 10px
 	&__button
 		width: 100%
-		line-height: 52px
+		padding: 5px
 		margin: 8px 0 0 0
 		background: #32b090
 		border: none
 		border-bottom: 5px solid #357968
 		cursor: pointer
 		text-transform: uppercase
-		font-size: 21px
+		font-size: 1.2em
+		line-height: 1em
 		color: #f4f4f4
+		span
+			font-size: 0.8rem
+			text-decoration: underline
 .main
 	background: url(../img/bg1.jpg) center top no-repeat	
 	margin-top: 5px
@@ -51,10 +55,6 @@
 		&-form
 			flex: 1
 	&__caption
-		margin: 10px 0
-		font-size: 2.8em
-		text-transform: uppercase
-		color: $topLine-text-color
-	&__description
 		font-size: 2em
 		font-weight: 300
+		color: $topLine-text-color

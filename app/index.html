@@ -17,6 +17,9 @@
 		     $('.close').click(function() {
 		        $('.price-item__hidden-more').fadeOut(1000);
     		});
+		var date = new Date().getDay();
+		var mas = ["Воскресенью!","Понедельнику!","Вторнику!","Среде!","Четвергу!","Пятнице!","Субботе!"];
+		document.getElementById('day-week').innerHTML = mas[date];
 });
 	</script>
 </head>
@@ -40,14 +43,16 @@
 			<div class="b-logo">
 				<div class="b-logo__img">
 					<img src="img/logo.png" alt="">
-					<p class="b-logo__text">Подбор Автомобилей в Новосибирске</p>
+					
 				</div>
+				<p class="b-logo__text">Подбор и поиск автомобиля в Новосибирске и области</p>
 			</div>
 			<div class="b-head-center">
 				<span>Работаем 10 лет<br>Гарантия 100 лет<br>фотоотчет всего процесса</span>
 				
 			</div>
 			<div class="b-contact">
+				<p>Есть вопросы? Звоните:</p>
 				<a class="b-contact__phone" href="tel:+7 (983) 306-50-05"> +7 (983) 306-50-05 </a>
 				<p>Часы работы: ПН-ВС 9:00 - 21:00</p>
 			</div>
@@ -59,20 +64,25 @@
 
 	<section class="main container-full-width">
 		<div class="container container-column container-hcenter">
-			<h1 class="main__caption">Профессиональный подбор автомобилей </h1>
-			<p class="main__description">от 1500 руб. для Новосибирска и НСО</p>	
-			<div class="main-content container-row container-vcenter">
+				<h1 class="main__caption">Поможем купить беспроблемное авто под Ваш бюджет или марку уже к <span id="day-week"></span></h1>	
+			<div class="main-content container-row ">
 				<div class="main-content-img">
 					<img src="img/main.jpg" alt="">
 					<p class="abstract-text"> "Я доволен" - <span>Антон 32 года</span></p>
 				</div>
 				<div class="main-content-form">
 					<form class="call-back-form container-column container-hcenter container-vcenter" action="">
-						<p class="call-back-form__title">Закажите бесплатную проверку объявления</p>
-						<span class="call-back-form__description"></span>
-						<input class="call-back-form__phone" type="text" placeholder="Введите телефон"/>
-						<input class="call-back-form__link" type="text" placeholder="Вставьте ссылку на объявление"/>
-						<input class="call-back-form__button" type="submit" value="Заказать проверку"/>
+						<p class="call-back-form__title">Получите предложение конкретно по Вашему запросу</p>
+						<ol>
+							<li> Оставьте свой номер телефона и наш специалист свяжется с Вами для консультации
+								<input class="call-back-form__phone" type="text" placeholder="+7 (983) 306-50-05"/>
+								<button class="call-back-form__button"> Получить предложение <br>
+							<span>бесплатно</span></button>
+							</li>
+							<li>Бесплатно - после консультации мы проанализируем рынок по Вашему запросу, чтобы выявить подходящие предложения от продавцов</li>
+							<li>Бесплатно - перезвоним Вам с детальным представлением о рынке авто конкретно по Вашему запросу</li>
+						</ol>					
+						
 					</form>
 				</div>
 			</div>			
